@@ -9,4 +9,6 @@ public interface ICategoryDAO extends GennericDAO<CategoryModel>{
 	List<CategoryModel> findAllCategory();
 
 	CategoryModel findOneCategoryById(Long id);
+	
+	CategoryModel findOneByCode(String code);
 }
